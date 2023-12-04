@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Patient List</title>
+  </head>
+  <body>
+    <ul>
+      {% for person in patients%}
+      <li>{{person}}</li>
+      {%endfor%}
+    </ul>
+  </body>
+</html>
